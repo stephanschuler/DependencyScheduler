@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace StephanSchuler\Scheduler;
+namespace StephanSchuler\DependencyScheduler;
 
-use StephanSchuler\Scheduler\Issuer\IssuerInterface;
-use StephanSchuler\Scheduler\Task\Task;
-use StephanSchuler\Scheduler\Task\TaskInterface;
+use StephanSchuler\DependencyScheduler\Issuer\IssuerInterface;
+use StephanSchuler\DependencyScheduler\Task\Task;
+use StephanSchuler\DependencyScheduler\Task\TaskInterface;
 
 class Scheduler
 {

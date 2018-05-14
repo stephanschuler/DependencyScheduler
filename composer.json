@@ -1,5 +1,5 @@
 {
-    "name": "stephanschuler/scheduler",
+    "name": "stephanschuler/dependency-scheduler",
     "description": "",
     "type": "library",
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "StephanSchuler\\Scheduler\\": "src"
+            "StephanSchuler\\DependencyScheduler\\": "src"
         }
     }
 }

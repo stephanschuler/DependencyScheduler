@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace StephanSchuler\Scheduler\Issuer;
+namespace StephanSchuler\DependencyScheduler\Issuer;
 
 class NullIssuer implements IssuerInterface
 {

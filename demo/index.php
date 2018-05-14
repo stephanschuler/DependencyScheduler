@@ -1,10 +1,10 @@
 <?php
 $autoloader = require_once __DIR__ . '/../vendor/autoload.php';
 
-use StephanSchuler\Scheduler\Dependency;
-use StephanSchuler\Scheduler\Issuer\IssuerInterface;
-use StephanSchuler\Scheduler\Issuer\NullIssuer;
-use StephanSchuler\Scheduler\Scheduler;
+use StephanSchuler\DependencyScheduler\Dependency;
+use StephanSchuler\DependencyScheduler\Issuer\IssuerInterface;
+use StephanSchuler\DependencyScheduler\Issuer\NullIssuer;
+use StephanSchuler\DependencyScheduler\Scheduler;
 
 $scheduler = new Scheduler();
 $scheduler->asGlobalInstance(function (Scheduler $scheduler) {

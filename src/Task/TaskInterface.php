@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace StephanSchuler\Scheduler\Task;
+namespace StephanSchuler\DependencyScheduler\Task;
 
-use StephanSchuler\Scheduler\Issuer\IssuerInterface;
+use StephanSchuler\DependencyScheduler\Issuer\IssuerInterface;
 
 interface TaskInterface
 {
